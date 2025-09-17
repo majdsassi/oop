@@ -2,6 +2,10 @@ package TP1 ;
 public class Compte {
         float solde ;
         int nc ;
+        public Compte(int numc , float soldec ) {
+            solde = soldec ;
+            nc = numc ;
+        }
         public void deposer(float x) {
             solde += x;
         }

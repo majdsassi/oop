@@ -14,7 +14,7 @@ public class PileVector {
         return temp ;
     }
     public Object entente() {
-        return v.firstElement() ;
+        return v.lastElement() ;
     }
     public boolean estVide() {
         return v.isEmpty() ? true : false ;

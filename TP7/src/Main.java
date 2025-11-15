@@ -39,7 +39,8 @@ void main() {
     for (Integer i : entiers) {
         System.out.println(i);
     }
-    Object[] arrayTab = entiers.toArray() ;
+
+    //dede
 
 
 }
